@@ -7,7 +7,7 @@ Autorzy: Hubert Jankowski, Michał Najborowski, Radosław Leszkiewicz
 ## Opis algorytmu
 PageRank jest algorytmem niegdyś używanym przez wyszukiwarkę Google do pozycjonowania stron internetowych w wynikach silnika wyszukiwarki. PageRank został nazwany po nazwisku twórcy, Larrym Page’u, jednego z założycieli firmy Google. Algorytm jest sposobem na ocenianie wartości stron internetowych. Właściwy algorytm nigdy nie został ujawniony, jedynie jego uproszczona forma.
 
-Wynikiem algorytmu jest lista prawdopodobieństw, z którymi osoba losowa klikająca w linki ostatecznie znajdzie się na danej stronie. PageRank może zostać wyliczony dla kolekcji dokumentów dowolnej wielkości. Obliczenie wyniku wymaga kilku iteracji, w których to za pomocą iteracyjnego obliczania wartości własnych macierzy, algorytm dostosowuje oceny tak, aby odzwierciedlały prawdziwe wartości.
+Wynikiem algorytmu jest lista prawdopodobieństw, z którymi osoba losowo klikająca w linki ostatecznie znajdzie się na danej stronie. PageRank może zostać wyliczony dla kolekcji dokumentów dowolnej wielkości. Obliczenie wyniku wymaga kilku iteracji, w których to za pomocą iteracyjnego obliczania wartości własnych macierzy, algorytm dostosowuje oceny tak, aby odzwierciedlały prawdziwe wartości.
 
 ## Przykład
 Jako przykład przeprowadzona zostanie analiza skierowanego grafu relacji przedstawionego na poniższym obrazku: 
