@@ -6,7 +6,7 @@ class PageRank:
     def __init__(
         self,
         graph,
-        initial=0.85,
+        alpha=0.85,
         personalization=None,
         iterations=100,
         tol=1.0e-6,
@@ -15,7 +15,7 @@ class PageRank:
         dangling=None,
     ):
         self.graph = graph
-        self.initial = initial
+        self.initial = alpha
         self.personalization = personalization
         self.iterations = iterations
         self.tol = tol
